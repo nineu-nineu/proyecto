@@ -15,7 +15,7 @@ public class Main {
         double saldoActual;
 
         cuentaTrabajo = new CCuenta("Antonio López","1000-2365-85-1230456789", 2500,0);
-        saldoActual = cuentaTrabajo.estado();
+        saldoActual = cuentaTrabajo.getSaldo();
         System.out.println("El saldo actual es " + saldoActual);
         operativaCuenta(saldoActual);
 
